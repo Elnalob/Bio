@@ -3,39 +3,39 @@ import React from 'react';
 const ProductDesign: React.FC = () => {
   const designItems = [
     {
-      image: "/dist/assets/13.webp",
+      image: "/assets/13.webp",
       title: "Paysure - Payment Platform"
     },
      {
-      image: "/dist/assets/9.webp",
+      image: "/assets/9.webp",
       title: "Paysure - Payment Platform"
     },
      {
-      image: "/dist/assets/11.webp",
+      image: "/assets/11.webp",
       title: "Paysure - Payment Platform"
     },
      {
-      image: "/dst/assets/12.webp",
+      image: "/assets/12.webp",
       title: "Paysure - Payment Platform"
     },
      {
-      image: "/dist/assets/13.webp",
+      image: "/assets/13.webp",
       title: "Paysure - Payment Platform"
     },
     {
-      image: "/dist/assets/6.webp",
+      image: "/assets/6.webp",
       title: "Pet Care E-commerce"
     },
     {
-      image: "/dist/assets/4.webp",
+      image: "/assets/4.webp",
       title: "Culinary Experience Platform"
     },
     {
-      image: "/dist/assets/2.webp",
+      image: "/assets/2.webp",
       title: "Paysure Dashboard"
     },
     {
-      image: "/dist/assets/1.webp",
+      image: "/assets/1.webp",
       title: "Landscape Architecture"
     },
     
