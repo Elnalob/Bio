@@ -84,38 +84,23 @@ body {
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #ffffff 0%, #e0e7ff 25%, #fecaca 50%, #ddd6fe 75%, #ffffff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: textGradientShift 10s ease-in-out infinite;
-}
-
-@keyframes textGradientShift {
-  0%, 100% {
-    background: linear-gradient(135deg, #ffffff 0%, #e0e7ff 25%, #fecaca 50%, #ddd6fe 75%, #ffffff 100%);
-  }
-  33% {
-    background: linear-gradient(135deg, #fecaca 0%, #ffffff 25%, #ddd6fe 50%, #e0e7ff 75%, #fecaca 100%);
-  }
-  66% {
-    background: linear-gradient(135deg, #ddd6fe 0%, #fecaca 25%, #ffffff 50%, #e0e7ff 75%, #ddd6fe 100%);
-  }
+  color: #ffffff;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.3) 0%, rgba(239, 68, 68, 0.3) 50%, rgba(147, 51, 234, 0.2) 100%);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(15px);
   transition: all 0.3s ease;
-  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.15);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.4) 0%, rgba(239, 68, 68, 0.4) 50%, rgba(147, 51, 234, 0.3) 100%);
-  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
   transform: translateY(-3px);
-  box-shadow: 0 15px 35px rgba(59, 130, 246, 0.25);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
 }
 
 .fade-in-up {
@@ -199,20 +184,12 @@ body {
 
 /* Colorful card backgrounds */
 .card-gradient {
-  background: linear-gradient(135deg, 
-    rgba(59, 130, 246, 0.1) 0%, 
-    rgba(239, 68, 68, 0.08) 30%, 
-    rgba(147, 51, 234, 0.1) 70%, 
-    rgba(236, 72, 153, 0.08) 100%);
+  background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(20px);
 }
 
 .card-gradient:hover {
-  background: linear-gradient(135deg, 
-    rgba(59, 130, 246, 0.15) 0%, 
-    rgba(239, 68, 68, 0.12) 30%, 
-    rgba(147, 51, 234, 0.15) 70%, 
-    rgba(236, 72, 153, 0.12) 100%);
+  background: rgba(255, 255, 255, 0.08);
   border-color: rgba(255, 255, 255, 0.2);
 }
